@@ -14,12 +14,6 @@ public class EmailMessageService implements MessageService {
 	@Named("servce.url")
 	private String url;
 
-//	@Inject
-//	public EmailMessageService(@Named("service.host") String host, @Named("servce.url") String url) {
-//		this.host = host;
-//		this.url = url;
-//	}
-
 	@Override
 	public boolean sendMessage(String message, String userName) {
 

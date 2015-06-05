@@ -16,7 +16,7 @@ public class Config extends AbstractModule {
 
 	@Override
 	protected void configure() {
-		InputStream inputStream = PropertiesProvider.class.getClassLoader().getResourceAsStream("testing.properties");
+		InputStream inputStream = Config.class.getClassLoader().getResourceAsStream("testing.properties");
 
 		try {
 			properties.load(inputStream);
