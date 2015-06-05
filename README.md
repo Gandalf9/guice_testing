@@ -3,4 +3,4 @@ The first commit in this sets up a guice project that can read properties and ma
 
 Have added `WireMockServer` which seems to be similar to `UnderTow` or `Jetty` for quicky having a server up
 
-Added `UniRest` as a mechanism for dispatching rest requests in a simple manner
+Added `UniRest` as a mechanism for dispatching rest requests in a simple manner.
