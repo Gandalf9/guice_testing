@@ -12,5 +12,4 @@ public class ActionClient {
 	public void doSomething() {
 		service.sendMessage("Action Done", "Bob");
 	}
-
 }
